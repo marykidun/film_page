@@ -1,6 +1,100 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
 
-h1 {
+:root {
+  --primary-color: #ffffff;
+}
+
+.navbar-brand {
   font-family: "Playfair Display", serif;
+  font-size: 38px;
+  color: var(--primary-color);
+  width: 150px;
+}
+.nav-link {
+  color: var(--primary-color);
+  height: 19px;
+  font-size: 16px;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.navbar-nav {
+  position: fixed;
+  top: 42px;
+  right: 140px;
+}
+
+img {
+  width: 1440px;
+  height: 900px;
+}
+
+.name {
+  font-family: "Playfair Display", serif;
+  color: var(--primary-color);
+  position: absolute;
+  top: 335px;
+  left: 430px;
+  font-size: 58px;
+  width: 595px;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-color);
+  position: absolute;
+  top: 420px;
+  left: 310px;
+  right: 250px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.btn-light {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  position: absolute;
+  top: 540px;
+  left: 575px;
+  right: 565px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/*Media*/
+@media (max-width: 578px) {
+  .name {
+    font-family: "Playfair Display", serif;
+    color: var(--primary-color);
+    position: absolute;
+    top: 335px;
+    left: 400px;
+    font-size: 58px;
+    width: 595px;
+  }
+  .description {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-color);
+    position: absolute;
+    top: 420px;
+    left: 375px;
+    right: 160px;
+    font-size: 28px;
+    text-align: center;
+
+    width: 500px;
+  }
+  .btn-light {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    position: absolute;
+    top: 590px;
+    left: 575px;
+    right: 565px;
+    padding: 12px;
+    border-radius: 5px;
+    width: 200px;
+  }
 }
