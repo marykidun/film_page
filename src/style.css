@@ -24,7 +24,6 @@ h2 {
 .nav-link:hover {
   color: var(--primary-color);
 }
-
 .navbar-nav {
   position: fixed;
   top: 42px;
@@ -148,5 +147,20 @@ img {
   h2 {
     font-size: 42px;
     text-align: center;
+    width: 350px;
+  }
+  .navbar ul {
+    position: fixed;
+    top: 42px;
+    left: 30px;
+  }
+
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
   }
 }
