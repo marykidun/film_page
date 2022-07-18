@@ -120,6 +120,7 @@ img {
   font-size: 58px;
   font-weight: 700px;
   line-height: 75px;
+  text-align: center;
 }
 .photo-section {
   padding: 120px 60px;
@@ -202,4 +203,18 @@ img {
     font-weight: 400px;
     color: black;
   }
+  .photo-section {
+    text-align: center;
+    padding: 20px 20px;
+   
+    margin-top: 50px;
+  }
+  .aboutme-name {
+    text-align: center;
+    margin: 0 auto !important;
+
+    font-size: 38px;
+  }
+  .fa-brands {
+    margin-bottom: 20px;
 }
