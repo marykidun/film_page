@@ -94,6 +94,15 @@ img {
   height: 320px;
 }
 
+.wikipedia-link {
+  color: darkslategray;
+  text-decoration: none;
+}
+.wikipedia-link:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
 /*Media*/
 
 @media (max-width: 900px) {
@@ -138,7 +147,7 @@ img {
     width: 200px;
   }
   .film-description {
-    text-align: center;
+    text-align: left;
     margin-left: 180px;
     line-height: 1.5em;
     width: 700px;
