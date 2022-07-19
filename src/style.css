@@ -206,7 +206,7 @@ img {
   .photo-section {
     text-align: center;
     padding: 20px 20px;
-   
+
     margin-top: 50px;
   }
   .aboutme-name {
@@ -217,4 +217,5 @@ img {
   }
   .fa-brands {
     margin-bottom: 20px;
+  }
 }
