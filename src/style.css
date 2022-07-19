@@ -219,6 +219,14 @@ img {
     margin-bottom: 20px;
   }
   .social-media {
-    padding: 15px;
+    padding: 10px;
+  }
+  .text-center p {
+    margin: 0 auto !important;
+  }
+  .about-photo {
+    width: 400px;
+    height: 382px;
+    padding-right: 10px;
   }
 }
