@@ -218,4 +218,10 @@ img {
   .fa-brands {
     margin-bottom: 20px;
   }
+  .social-media {
+    padding: 15px;
+  }
+  .aboutme-description {
+    text-align: center;
+  }
 }
