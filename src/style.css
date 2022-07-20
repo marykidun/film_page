@@ -4,6 +4,10 @@ font-family: 'Poppins', sans-serif;*/
 :root {
   --primary-color: #ffffff;
 }
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 h2 {
   font-family: "Playfair Display", serif;
@@ -131,9 +135,18 @@ img {
 
 /*Favourite films*/
 
-.amelie-image {
-  width: 400px;
+.section-name {
+  padding: 130px 20px 20px 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  line-height: 1.5em;
 }
+.image-fav {
+  width: 500px;
+  height: 482px;
+  padding: 0 70px;
+}
+
 /*Media*/
 
 @media (max-width: 900px) {
@@ -227,6 +240,21 @@ img {
   .about-photo {
     width: 400px;
     height: 382px;
-    padding-right: 10px;
+  }
+}
+@media (max-width: 578px) {
+  p {
+    text-align: center;
+    width: 100%;
+    margin-left: 18px;
+  }
+  .about-photo {
+    padding-right: 30px;
+  }
+
+  .btn-dark {
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
   }
 }
