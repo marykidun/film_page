@@ -9,10 +9,16 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+h1 {
+  font-family: "Playfair Display", serif;
+}
 
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 48px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-brand {
