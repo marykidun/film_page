@@ -226,7 +226,7 @@ img {
     text-align: center;
     margin: 0 auto !important;
 
-    font-size: 38px;
+    font-size: 36px;
   }
   .fa-brands {
     margin-bottom: 20px;
@@ -234,27 +234,38 @@ img {
   .social-media {
     padding: 10px;
   }
-  .text-center p {
-    margin: 0 auto !important;
+  .text-center {
+    text-align: center;
   }
   .about-photo {
     width: 400px;
     height: 382px;
   }
+  .short-desrciption {
+    text-align: center !important;
+    margin-left: 30px;
+  }
 }
 @media (max-width: 578px) {
-  p {
-    text-align: center;
-    width: 100%;
-    margin-left: 18px;
-  }
   .about-photo {
-    padding-right: 30px;
+    padding-right: 32px;
   }
 
   .btn-dark {
     display: block;
     margin: 0 auto;
     margin-left: 20px;
+  }
+  .text-sm-center {
+    min-width: 320px;
+    text-align: center;
+
+    padding: 5px;
+  }
+}
+@media (max-width: 280px) {
+  .short-desrciption {
+    text-align: center !important;
+    margin-left: 30px;
   }
 }
