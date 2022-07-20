@@ -3,6 +3,7 @@ font-family: 'Poppins', sans-serif;*/
 
 :root {
   --primary-color: #ffffff;
+  --secondary-color: #f65282;
 }
 body {
   margin: 0 !important;
@@ -142,9 +143,13 @@ img {
   line-height: 1.5em;
 }
 .image-fav {
-  width: 500px;
-  height: 482px;
-  padding: 0 70px;
+  width: 386px;
+  height: 280px;
+  border-radius: 2px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
 }
 
 /*Media*/
