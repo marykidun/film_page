@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Favourite films</a>
         <button
@@ -64,16 +64,31 @@
       </div>
     </nav>
 
-    <div class="main-block">
-      <img src="img/photo2.jpg" alt="Interesting films" class="main-photo" />
-      <h1 class="name">Films for the evenings</h1>
-      <p class="description">
-        Here you can find the list of the films which I hope will be good choice
-        to spend evening or weekend. All films you see here are based on my
-        personnal preferences.
-      </p>
-      <button type="button" class="btn btn-light">Subscribe</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="justify-content-between mt-3 d-none d-lg-flex">
+            <img
+              src="img/photo2.jpg"
+              alt="Interesting films"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="d-flex text-center">
+            <h1 class="name">Films for the evenings</h1>
+          </div>
+          <p class="description">
+            Here you can find the list of the films which I hope will be good
+            choice to spend evening or weekend. All films you see here are based
+            on my personnal preferences.
+          </p>
+        </div>
+      </div>
     </div>
+    <hr />
     <div class="container container-content">
       <div class="row">
         <div class="col d-none d-lg-block">
@@ -198,7 +213,7 @@
     <footer>
       <div class="container">
         <div
-          class="contact-box d-flex justify-content-between m-5 d-none d-sm-flex"
+          class="contact-box d-flex justify-content-between m-5 d-none d-lg-flex"
         >
           <div>
             <h4 class="title">Ask me</h4>
