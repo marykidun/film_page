@@ -158,6 +158,45 @@ h4 {
   font-family: "Poppins", sans-serif;
 }
 
+/*Footer*/
+
+footer .contact-box {
+  background-color: lightgray;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+.social-media {
+  padding: 0 20px;
+  background-color: azure;
+  padding: 10px 14px;
+
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
 /*Media*/
 
 @media (max-width: 900px) {
@@ -272,6 +311,10 @@ h4 {
     text-align: center;
 
     padding: 5px;
+  }
+  footer .contact-box {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 280px) {
