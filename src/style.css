@@ -157,7 +157,6 @@ img {
 .image-fav {
   width: 386px;
   height: 280px;
-  border-radius: 2px;
 }
 
 h4 {
@@ -202,6 +201,9 @@ footer .social-media a {
 
 .title {
   font-size: 48px;
+  font-family: "Poppins", sans-serif;
+}
+.sentence {
   font-family: "Poppins", sans-serif;
 }
 
@@ -283,13 +285,6 @@ footer .social-media a {
   .container-content {
     margin: 50px 0px;
   }
-  .container-film {
-    display: flex;
-    justify-content: center;
-  }
-  .social-media a {
-    text-align: center;
-  }
 }
 @media (max-width: 578px) {
   .about-photo {
@@ -316,9 +311,6 @@ footer .social-media a {
     margin-left: 240px;
     min-width: 100%;
   }
-  .social-media a {
-    text-align: center;
-  }
 }
 @media (max-width: 280px) {
   .short-desrciption {
@@ -335,8 +327,5 @@ footer .social-media a {
   .description {
     margin-left: 290px;
     min-width: 100%;
-  }
-  .social-media a {
-    text-align: center;
   }
 }
