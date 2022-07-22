@@ -166,14 +166,20 @@ h4 {
 
 /*Footer*/
 
-footer .contact-box {
+footer .work {
   background-color: lightgray;
   padding: 30px 120px;
   border-radius: 10px;
 }
 
-footer {
-  margin: 60px 0;
+footer .work a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .work a:hover {
+  color: var(--secondary-color);
 }
 
 footer .email-link {
@@ -185,22 +191,18 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--secondary-color);
 }
-.social-media {
+footer .social-media a {
   padding: 0 20px;
   background-color: azure;
   padding: 10px 14px;
-
+  color: var(--secondary-color);
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .title {
   font-size: 48px;
   font-family: "Poppins", sans-serif;
-}
-
-footer .contact-box p {
-  margin: 0;
 }
 
 /*Media*/
@@ -209,8 +211,8 @@ footer .contact-box p {
   .name {
     font-family: "Playfair Display", serif;
     color: black;
-
     font-size: 50px;
+    margin-left: 150px;
   }
   .description {
     font-family: "Poppins", sans-serif;
@@ -218,8 +220,8 @@ footer .contact-box p {
 
     font-size: 28px;
     line-height: 32px;
-    justify-self: center;
-    margin: auto;
+
+    margin-left: 130px;
   }
 
   .film-description {
@@ -277,11 +279,16 @@ footer .contact-box p {
     text-align: center !important;
     margin-left: 30px;
   }
-  hr {
-    width: 90%;
+
+  .container-content {
+    margin: 50px 0px;
+  }
+  .container-film {
+    display: flex;
+    justify-content: center;
+  }
+  .social-media a {
     text-align: center;
-    margin: 0 auto;
-    margin-top: 30px;
   }
 }
 @media (max-width: 578px) {
@@ -300,14 +307,36 @@ footer .contact-box p {
 
     padding: 5px;
   }
-  footer .contact-box {
-    display: flex;
-    justify-content: center;
+
+  .name {
+    margin-left: 220px;
+    min-width: 110%;
+  }
+  .description {
+    margin-left: 240px;
+    min-width: 100%;
+  }
+  .social-media a {
+    text-align: center;
   }
 }
 @media (max-width: 280px) {
   .short-desrciption {
     text-align: center !important;
     margin-left: 30px;
+  }
+  .container-content {
+    margin: 30px 0px;
+  }
+  .name {
+    margin-left: 270px;
+    min-width: 110%;
+  }
+  .description {
+    margin-left: 290px;
+    min-width: 100%;
+  }
+  .social-media a {
+    text-align: center;
   }
 }
