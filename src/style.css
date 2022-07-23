@@ -88,10 +88,6 @@ img {
   height: 280px;
 }
 
-.container-content {
-  margin: 100px 144px;
-}
-
 .film-description {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -100,6 +96,9 @@ img {
   color: #272142b2;
   opacity: 90%;
 }
+/*.container-content {
+  margin: 100px 144px;
+}*/
 
 .image-size {
   width: 386px;
@@ -173,7 +172,7 @@ footer .work {
 
 footer .work a {
   text-decoration: none;
-  color: black;
+
   font-size: 24px;
 }
 
@@ -183,7 +182,7 @@ footer .work a:hover {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+
   font-size: 24px;
 }
 
@@ -214,21 +213,24 @@ footer .social-media a {
     font-family: "Playfair Display", serif;
     color: black;
     font-size: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
   }
   .description {
     font-family: "Poppins", sans-serif;
     color: black;
 
-    font-size: 28px;
+    font-size: 22px;
     line-height: 32px;
 
-    margin-left: 130px;
+    margin-left: 70px;
+    margin-right: 50px;
+
+    text-align: center;
   }
 
   .film-description {
     text-align: left;
-    margin-left: 180px;
+    margin-left: 30px;
     line-height: 1.5em;
     width: 700px;
     font-size: 20px;
@@ -281,10 +283,15 @@ footer .social-media a {
     text-align: center !important;
     margin-left: 30px;
   }
+  footer .social-media a {
+    padding: 0;
 
-  .container-content {
-    margin: 50px 0px;
+    padding: 5px 5px;
   }
+
+  /*.container-content {
+    margin: 50px 0px;
+  }*/
 }
 @media (max-width: 578px) {
   .about-photo {
@@ -304,12 +311,18 @@ footer .social-media a {
   }
 
   .name {
-    margin-left: 220px;
+    margin-left: 150px;
     min-width: 110%;
   }
   .description {
-    margin-left: 240px;
-    min-width: 100%;
+    margin-left: 150px;
+    min-width: 110%;
+  }
+  footer .social-media a {
+    text-align: center;
+    padding: 0;
+
+    padding: 7px 7px;
   }
 }
 @media (max-width: 280px) {
@@ -317,15 +330,20 @@ footer .social-media a {
     text-align: center !important;
     margin-left: 30px;
   }
-  .container-content {
+  /*.container-content {
     margin: 30px 0px;
-  }
+  }*/
   .name {
-    margin-left: 270px;
-    min-width: 110%;
+    margin-left: 200px;
+    min-width: 120%;
   }
   .description {
-    margin-left: 290px;
-    min-width: 100%;
+    margin-left: 200px;
+    min-width: 130%;
+  }
+
+  footer .email-link {
+    margin-left: 250px;
+    padding: 10px;
   }
 }
