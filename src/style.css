@@ -284,9 +284,7 @@ footer .social-media a {
     margin-left: 30px;
   }
   footer .social-media a {
-    padding: 0;
-
-    padding: 5px 5px;
+    padding: 10px 10px;
   }
 
   /*.container-content {
@@ -294,6 +292,10 @@ footer .social-media a {
   }*/
 }
 @media (max-width: 578px) {
+  .container {
+    margin-left: 50;
+  }
+
   .about-photo {
     padding-right: 32px;
   }
@@ -302,12 +304,6 @@ footer .social-media a {
     display: block;
     margin: 0 auto;
     margin-left: 20px;
-  }
-  .text-sm-center {
-    min-width: 320px;
-    text-align: center;
-
-    padding: 5px;
   }
 
   .name {
@@ -318,11 +314,13 @@ footer .social-media a {
     margin-left: 150px;
     min-width: 110%;
   }
-  footer .social-media a {
-    text-align: center;
-    padding: 0;
 
-    padding: 7px 7px;
+  footer .email-link {
+    margin-left: 330px;
+  }
+  .sentence {
+    margin-left: 120px;
+    width: 470px;
   }
 }
 @media (max-width: 280px) {
@@ -343,7 +341,7 @@ footer .social-media a {
   }
 
   footer .email-link {
-    margin-left: 250px;
+    margin-left: 420px;
     padding: 10px;
   }
 }
