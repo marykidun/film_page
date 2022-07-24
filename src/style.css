@@ -45,23 +45,15 @@ hr:before {
 
 .navbar-brand {
   font-family: "Playfair Display", serif;
-  font-size: 38px;
+
   color: var(--primary-color);
-  width: 150px;
 }
-.nav-link {
+.nav-link a {
   color: var(--primary-color);
   height: 19px;
   font-size: 16px;
 }
-.nav-link:hover {
-  color: var(--primary-color);
-}
-.navbar-nav {
-  position: fixed;
-  top: 42px;
-  right: 140px;
-}
+
 img {
   width: 550px;
   height: 400px;
@@ -240,20 +232,7 @@ footer .social-media a {
     text-align: center;
     width: 350px;
   }
-  .navbar ul {
-    position: fixed;
-    top: 42px;
-    left: 30px;
-  }
 
-  .nav-link {
-    font-family: "Poppins", sans-serif;
-    margin-top: 30px;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 400px;
-    color: black;
-  }
   .photo-section {
     text-align: center;
     padding: 20px 20px;
@@ -322,6 +301,10 @@ footer .social-media a {
     margin-left: 120px;
     width: 470px;
   }
+  hr {
+    margin-left: 150px;
+    width: 430px;
+  }
 }
 @media (max-width: 280px) {
   .short-desrciption {
@@ -336,12 +319,17 @@ footer .social-media a {
     min-width: 120%;
   }
   .description {
-    margin-left: 200px;
-    min-width: 130%;
+    text-align: center;
+    margin-left: 150px;
+    width: 400px;
   }
 
   footer .email-link {
     margin-left: 420px;
     padding: 10px;
+  }
+  hr {
+    margin-left: 150px;
+    width: 430px;
   }
 }
