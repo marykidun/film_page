@@ -47,6 +47,7 @@ hr:before {
   font-family: "Playfair Display", serif;
 
   color: var(--primary-color);
+  font-size: 32px;
 }
 .nav-link a {
   color: var(--primary-color);
