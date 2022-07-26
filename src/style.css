@@ -202,6 +202,9 @@ footer .social-media a {
 /*Media*/
 
 @media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
   .name {
     font-family: "Playfair Display", serif;
     color: black;
@@ -272,6 +275,9 @@ footer .social-media a {
   }*/
 }
 @media (max-width: 578px) {
+  body {
+    overflow-x: hidden;
+  }
   .container {
     margin-left: 50;
   }
@@ -308,6 +314,9 @@ footer .social-media a {
   }
 }
 @media (max-width: 280px) {
+  body {
+    overflow-x: hidden;
+  }
   .short-desrciption {
     text-align: center !important;
     margin-left: 30px;
