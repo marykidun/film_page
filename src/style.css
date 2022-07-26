@@ -6,6 +6,11 @@ font-family: 'Poppins', sans-serif;*/
   --secondary-color: #f65282;
 }
 
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
@@ -203,6 +208,7 @@ footer .social-media a {
 
 @media (max-width: 900px) {
   body {
+    height: 100%;
     overflow-x: hidden;
   }
   .name {
@@ -276,6 +282,7 @@ footer .social-media a {
 }
 @media (max-width: 578px) {
   body {
+    height: 100%;
     overflow-x: hidden;
   }
   .container {
@@ -315,6 +322,7 @@ footer .social-media a {
 }
 @media (max-width: 280px) {
   body {
+    height: 100%;
     overflow-x: hidden;
   }
   .short-desrciption {
